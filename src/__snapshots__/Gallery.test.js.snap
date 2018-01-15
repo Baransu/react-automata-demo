@@ -1,0 +1,944 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error 1`] = `
+<div
+  className="ui-app"
+  data-state="error"
+>
+  <form
+    className="ui-form"
+    onSubmit={[Function]}
+  >
+    <input
+      className="ui-input"
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Search Flickr for photos..."
+      type="search"
+      value=""
+    />
+    <div
+      className="ui-buttons"
+    >
+      <button
+        className="ui-button"
+        disabled={false}
+      >
+        Try search again
+      </button>
+    </div>
+  </form>
+  <section
+    className="ui-items"
+  >
+    <span
+      className="ui-error"
+    >
+      Uh oh, search failed.
+    </span>
+  </section>
+</div>
+`;
+
+exports[`gallery 1`] = `
+<div
+  className="ui-app"
+  data-state="gallery"
+>
+  <form
+    className="ui-form"
+    onSubmit={[Function]}
+  >
+    <input
+      className="ui-input"
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Search Flickr for photos..."
+      type="search"
+      value=""
+    />
+    <div
+      className="ui-buttons"
+    >
+      <button
+        className="ui-button"
+        disabled={false}
+      >
+        Search
+      </button>
+    </div>
+  </form>
+  <section
+    className="ui-items"
+  >
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4716/25714391878_60863275b4_m.jpg"
+      style={
+        Object {
+          "--i": 0,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4665/25714392688_5012b36399_m.jpg"
+      style={
+        Object {
+          "--i": 1,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4745/25714394228_ef1293d99a_m.jpg"
+      style={
+        Object {
+          "--i": 2,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4722/25714394588_c532972f20_m.jpg"
+      style={
+        Object {
+          "--i": 3,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4658/25714395838_4e3fa94d56_m.jpg"
+      style={
+        Object {
+          "--i": 4,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4616/25714396538_8f6de9924b_m.jpg"
+      style={
+        Object {
+          "--i": 5,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4672/25714396928_a5c8091f2c_m.jpg"
+      style={
+        Object {
+          "--i": 6,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4696/25714396938_7e726de51e_m.jpg"
+      style={
+        Object {
+          "--i": 7,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4609/27808087169_7fb2c264fb_m.jpg"
+      style={
+        Object {
+          "--i": 8,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4703/38688906205_bfee014960_m.jpg"
+      style={
+        Object {
+          "--i": 9,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4624/38688906295_ed982b87f7_m.jpg"
+      style={
+        Object {
+          "--i": 10,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4660/38876127464_acd29e61c8_m.jpg"
+      style={
+        Object {
+          "--i": 11,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4743/38876130284_dfd887d2bb_m.jpg"
+      style={
+        Object {
+          "--i": 12,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4701/38876132404_c5076bc6d8_m.jpg"
+      style={
+        Object {
+          "--i": 13,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4648/24717341387_53465075b0_m.jpg"
+      style={
+        Object {
+          "--i": 14,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4631/24717342397_21067e95f9_m.jpg"
+      style={
+        Object {
+          "--i": 15,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4746/24717344147_cd98c66c8e_m.jpg"
+      style={
+        Object {
+          "--i": 16,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4630/25714442938_736f7ddfd4_m.jpg"
+      style={
+        Object {
+          "--i": 17,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4670/25714445108_3c06cb4349_m.jpg"
+      style={
+        Object {
+          "--i": 18,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4717/25714447838_63ab2b59f3_m.jpg"
+      style={
+        Object {
+          "--i": 19,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4631/25714447948_5f8e5421fd_m.jpg"
+      style={
+        Object {
+          "--i": 20,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4713/27808120519_43c66c73e0_m.jpg"
+      style={
+        Object {
+          "--i": 21,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4628/38688966755_ecfde95038_m.jpg"
+      style={
+        Object {
+          "--i": 22,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4711/38688967945_e3ab6bab5a_m.jpg"
+      style={
+        Object {
+          "--i": 23,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4705/38688968465_d38f9aba34_m.jpg"
+      style={
+        Object {
+          "--i": 24,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4710/38688969445_294c6b8684_m.jpg"
+      style={
+        Object {
+          "--i": 25,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4629/38688969755_801a4c9d95_m.jpg"
+      style={
+        Object {
+          "--i": 26,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4741/39584521471_18b7bbc6ed_m.jpg"
+      style={
+        Object {
+          "--i": 27,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4717/39584522241_bbf8aa94d9_m.jpg"
+      style={
+        Object {
+          "--i": 28,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4724/39584522701_43484b2eca_m.jpg"
+      style={
+        Object {
+          "--i": 29,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4767/39584523271_1845e77b3a_m.jpg"
+      style={
+        Object {
+          "--i": 30,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4699/39584525001_a1eefa5642_m.jpg"
+      style={
+        Object {
+          "--i": 31,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4617/39584525181_db38206ca7_m.jpg"
+      style={
+        Object {
+          "--i": 32,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4744/39584525321_bab7dcdeea_m.jpg"
+      style={
+        Object {
+          "--i": 33,
+        }
+      }
+    />
+  </section>
+</div>
+`;
+
+exports[`loading 1`] = `
+<div
+  className="ui-app"
+  data-state="loading"
+>
+  <form
+    className="ui-form"
+    onSubmit={[Function]}
+  >
+    <input
+      className="ui-input"
+      disabled={true}
+      onChange={[Function]}
+      placeholder="Search Flickr for photos..."
+      type="search"
+      value=""
+    />
+    <div
+      className="ui-buttons"
+    >
+      <button
+        className="ui-button"
+        disabled={true}
+      >
+        Searching...
+      </button>
+      <button
+        className="ui-button"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+    </div>
+  </form>
+  <section
+    className="ui-items"
+  />
+</div>
+`;
+
+exports[`photo 1`] = `
+<div
+  className="ui-app"
+  data-state="photo"
+>
+  <form
+    className="ui-form"
+    onSubmit={[Function]}
+  >
+    <input
+      className="ui-input"
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Search Flickr for photos..."
+      type="search"
+      value=""
+    />
+    <div
+      className="ui-buttons"
+    >
+      <button
+        className="ui-button"
+        disabled={false}
+      >
+        Search
+      </button>
+    </div>
+  </form>
+  <section
+    className="ui-items"
+  >
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4716/25714391878_60863275b4_m.jpg"
+      style={
+        Object {
+          "--i": 0,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4665/25714392688_5012b36399_m.jpg"
+      style={
+        Object {
+          "--i": 1,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4745/25714394228_ef1293d99a_m.jpg"
+      style={
+        Object {
+          "--i": 2,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4722/25714394588_c532972f20_m.jpg"
+      style={
+        Object {
+          "--i": 3,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4658/25714395838_4e3fa94d56_m.jpg"
+      style={
+        Object {
+          "--i": 4,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4616/25714396538_8f6de9924b_m.jpg"
+      style={
+        Object {
+          "--i": 5,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4672/25714396928_a5c8091f2c_m.jpg"
+      style={
+        Object {
+          "--i": 6,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4696/25714396938_7e726de51e_m.jpg"
+      style={
+        Object {
+          "--i": 7,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4609/27808087169_7fb2c264fb_m.jpg"
+      style={
+        Object {
+          "--i": 8,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4703/38688906205_bfee014960_m.jpg"
+      style={
+        Object {
+          "--i": 9,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4624/38688906295_ed982b87f7_m.jpg"
+      style={
+        Object {
+          "--i": 10,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4660/38876127464_acd29e61c8_m.jpg"
+      style={
+        Object {
+          "--i": 11,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4743/38876130284_dfd887d2bb_m.jpg"
+      style={
+        Object {
+          "--i": 12,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4701/38876132404_c5076bc6d8_m.jpg"
+      style={
+        Object {
+          "--i": 13,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4648/24717341387_53465075b0_m.jpg"
+      style={
+        Object {
+          "--i": 14,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4631/24717342397_21067e95f9_m.jpg"
+      style={
+        Object {
+          "--i": 15,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4746/24717344147_cd98c66c8e_m.jpg"
+      style={
+        Object {
+          "--i": 16,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4630/25714442938_736f7ddfd4_m.jpg"
+      style={
+        Object {
+          "--i": 17,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4670/25714445108_3c06cb4349_m.jpg"
+      style={
+        Object {
+          "--i": 18,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4717/25714447838_63ab2b59f3_m.jpg"
+      style={
+        Object {
+          "--i": 19,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4631/25714447948_5f8e5421fd_m.jpg"
+      style={
+        Object {
+          "--i": 20,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4713/27808120519_43c66c73e0_m.jpg"
+      style={
+        Object {
+          "--i": 21,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4628/38688966755_ecfde95038_m.jpg"
+      style={
+        Object {
+          "--i": 22,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4711/38688967945_e3ab6bab5a_m.jpg"
+      style={
+        Object {
+          "--i": 23,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4705/38688968465_d38f9aba34_m.jpg"
+      style={
+        Object {
+          "--i": 24,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4710/38688969445_294c6b8684_m.jpg"
+      style={
+        Object {
+          "--i": 25,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4629/38688969755_801a4c9d95_m.jpg"
+      style={
+        Object {
+          "--i": 26,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4741/39584521471_18b7bbc6ed_m.jpg"
+      style={
+        Object {
+          "--i": 27,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4717/39584522241_bbf8aa94d9_m.jpg"
+      style={
+        Object {
+          "--i": 28,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4724/39584522701_43484b2eca_m.jpg"
+      style={
+        Object {
+          "--i": 29,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4767/39584523271_1845e77b3a_m.jpg"
+      style={
+        Object {
+          "--i": 30,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4699/39584525001_a1eefa5642_m.jpg"
+      style={
+        Object {
+          "--i": 31,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4617/39584525181_db38206ca7_m.jpg"
+      style={
+        Object {
+          "--i": 32,
+        }
+      }
+    />
+    <img
+      alt=""
+      className="ui-item"
+      onClick={[Function]}
+      src="https://farm5.staticflickr.com/4744/39584525321_bab7dcdeea_m.jpg"
+      style={
+        Object {
+          "--i": 33,
+        }
+      }
+    />
+  </section>
+  <section
+    className="ui-photo-detail"
+    onClick={[Function]}
+  >
+    <img
+      alt=""
+      className="ui-photo"
+      src="https://farm5.staticflickr.com/4716/25714391878_60863275b4_m.jpg"
+    />
+  </section>
+</div>
+`;
+
+exports[`start 1`] = `
+<div
+  className="ui-app"
+  data-state="start"
+>
+  <form
+    className="ui-form"
+    onSubmit={[Function]}
+  >
+    <input
+      className="ui-input"
+      disabled={false}
+      onChange={[Function]}
+      placeholder="Search Flickr for photos..."
+      type="search"
+      value=""
+    />
+    <div
+      className="ui-buttons"
+    >
+      <button
+        className="ui-button"
+        disabled={false}
+      >
+        Search
+      </button>
+    </div>
+  </form>
+  <section
+    className="ui-items"
+  />
+</div>
+`;

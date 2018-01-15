@@ -49,17 +49,13 @@ const statechartStories = (stories, config, Component) => {
   });
 };
 
-const fixtures = {
+export const fixtures = {
   initialData,
   gallery: {
-    SELECT_PHOTO: {
-      photo: items[0]
-    }
+    SELECT_PHOTO: { photo: items[0] }
   },
   loading: {
-    SEARCH_SUCCESS: {
-      items
-    }
+    SEARCH_SUCCESS: { items }
   }
 };
 

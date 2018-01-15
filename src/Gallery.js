@@ -6,22 +6,7 @@ import React from 'react';
 import fetchJsonp from 'fetch-jsonp';
 import { Action, withStatechart } from 'react-automata/lib';
 
-// some experiments with proper typing for better DX
-
-type State = 'start' | 'loading' | 'error' | 'gallery' | 'photo';
-
-type StateObject = {
-  on: { [string]: State },
-  onEntry?: string,
-  onExit?: string
-};
-
-type Statechart<T> = {
-  initial: T,
-  states: { [State]: StateObject }
-};
-
-export const statechart: Statechart<State> = {
+export const statechart = {
   initial: 'start',
   states: {
     start: {
@@ -60,6 +45,13 @@ export const statechart: Statechart<State> = {
   }
 };
 
+function getImages(query) {
+  return fetchJsonp(
+    `https://api.flickr.com/services/feeds/photos_public.gne?lang=en-us&format=json&tags=${query}`,
+    { jsonpCallback: 'jsoncallback' }
+  ).then(res => res.json());
+}
+
 export class Gallery extends React.Component {
   state = {
     disableForm: false,
@@ -68,34 +60,23 @@ export class Gallery extends React.Component {
   };
 
   enterLoading() {
-    this.setState({
-      disableForm: true,
-      searchText: 'Searching...'
-    });
+    this.setState({ disableForm: true, searchText: 'Searching...' });
 
-    const encodedQuery = encodeURIComponent(this.state.query);
+    const query = encodeURIComponent(this.state.query);
+
     setTimeout(() => {
-      fetchJsonp(
-        `https://api.flickr.com/services/feeds/photos_public.gne?lang=en-us&format=json&tags=${encodedQuery}`,
-        { jsonpCallback: 'jsoncallback' }
-      )
-        .then(res => res.json())
+      getImages(query)
         .then(({ items }) => this.props.transition('SEARCH_SUCCESS', { items }))
         .catch(() => this.props.transition('SEARCH_FAILURE'));
     }, 1000);
   }
 
   exitLoading() {
-    this.setState({
-      disableForm: false,
-      searchText: 'Search'
-    });
+    this.setState({ disableForm: false, searchText: 'Search' });
   }
 
   enterError() {
-    this.setState({
-      searchText: 'Try search again'
-    });
+    this.setState({ searchText: 'Try search again' });
   }
 
   handleSubmit = e => {
@@ -171,7 +152,6 @@ export const initialData = {
   photo: { media: {} }
 };
 
-const partial = withStatechart(statechart, { devTools: true, initialData });
-console.log(partial);
-
-export default partial(Gallery);
+export default withStatechart(statechart, { devTools: true, initialData })(
+  Gallery
+);
